@@ -178,9 +178,10 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/tjx666 || github
-  知乎: https://www.zhihu.com/people/yu-teng-jing/activities || bookmark
-  掘金: https://juejin.im/user/5ad0dcaa6fb9a028d93794b9 || book
+  ZhiHu: https://www.zhihu.com/people/yu-teng-jing/activities || bookmark
+  JueJin: https://juejin.im/user/5ad0dcaa6fb9a028d93794b9 || book
   E-Mail: mailto:ytj2713151713@gmail.com || envelope
+  RSS: /atom.xml || rss
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -189,7 +190,6 @@ social:
   #YouTube: https://youtube.com/yourname || youtube
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
-  # RSS: /atom.xml || rss
 
 social_icons:
   enable: true
