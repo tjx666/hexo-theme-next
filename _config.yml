@@ -10,14 +10,14 @@
 override: false
 
 # Console reminder if new version released.
-reminder: false
+reminder: true
 
 # Allow to cache content generation. Introduced in NexT v6.0.0.
 cache:
   enable: true
 
 # Remove unnecessary files after hexo generate.
-minify: false
+minify: true
 
 # Define custom file paths.
 # Create your custom files in site directory `source/_data` and uncomment needed files below.
@@ -48,7 +48,7 @@ favicon:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -104,8 +104,8 @@ creative_commons:
 # Schemes
 # scheme: Muse
 #scheme: Mist
-#scheme: Pisces
-scheme: Gemini
+scheme: Pisces
+# scheme: Gemini
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -122,14 +122,14 @@ menu:
   tags: /tags/ || tags
   archives: /archives/ || archive
   about: /about/ || user
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
+  # schedule: /schedule/ || calendar
+  # sitemap: /sitemap.xml || sitemap
   # commonweal: /404/ || heartbeat
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  # badges: true
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -167,7 +167,7 @@ avatar:
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -177,9 +177,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
+  知乎: https://www.zhihu.com/people/yu-teng-jing/activities || bookmark
+  掘金: https://juejin.im/user/5ad0dcaa6fb9a028d93794b9 || book
   GitHub: https://github.com/tjx666 || github
-  ZhiHu: https://www.zhihu.com/people/yu-teng-jing/activities || bookmark
-  JueJin: https://juejin.im/user/5ad0dcaa6fb9a028d93794b9 || book
   E-Mail: mailto:ytj2713151713@gmail.com || envelope
   RSS: /atom.xml || rss
   #Weibo: https://weibo.com/yourname || weibo
@@ -194,7 +194,7 @@ social:
 social_icons:
   enable: true
   icons_only: false
-  transition: false
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -467,7 +467,7 @@ seo: false
 index_with_subtitle: false
 
 # Automatically add external URL with Base64 encrypt & decrypt.
-exturl: false
+exturl: true
 
 # Google Webmaster tools verification.
 # See: https://www.google.com/webmasters
