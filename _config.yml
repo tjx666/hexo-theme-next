@@ -118,10 +118,11 @@ scheme: Pisces
 # External url should start with http:// or https://
 menu:
   home: / || home
+  archives: /archives/ || archive
   categories: /categories/ || th
   tags: /tags/ || tags
-  archives: /archives/ || archive
   about: /about/ || user
+  links: /links/ || link
   # schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
   # commonweal: /404/ || heartbeat
@@ -203,8 +204,7 @@ links_settings:
   # Available values: block | inline
   layout: inline
 
-links:
-  #Title: http://yoursite.com
+# links:
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
